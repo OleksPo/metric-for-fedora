@@ -7,19 +7,18 @@ from sys import argv
 
 def ctp ():
     """Print CPU Usage."""
-    CPU_D = cpu_times_percent(interval=1)._asdict()
-    for key, value in CPU_D.items():
+    cpu_d = cpu_times_percent(interval=1)._asdict()
+    for key, value in cpu_d.items():
         print("system.cpu.",key,'\t', value)
 
 def mem ():
     """Print Memory Usage."""
-    VMEM_D = virtual_memory()._asdict()
-    for key, value in VMEM_D.items():
+    vmem_d = virtual_memory()._asdict()
+    for key, value in vmem_d.items():
         print("virtual \t", key,'\t', value)
-    SwMEM_D = swap_memory()._asdict()
-    for key, value in SwMEM_D.items():
+    swmem_d = swap_memory()._asdict()
+    for key, value in swmem_d.items():
         print("swap \t", key,'\t', value)
-
 
 if "cpu" in argv:
     ctp()
