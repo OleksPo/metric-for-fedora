@@ -1,2 +1,9 @@
 # metric-for-fedora
-CPU and MEM metric of Linux system. Test task
+
+CLI tool to print CPU and Memory Utilization.
+
+Usage:
+$ ./metrics.py [cpu|mem]
+
+Needed:
+pip3 psutil installed
