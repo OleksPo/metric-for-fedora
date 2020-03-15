@@ -11,11 +11,9 @@ CLI tool to print CPU and Memory Utilization.
 
 ### Requirements:
 
-python3
-
-pip3
-
-psutil
+* python3
+* pip3
+* psutil
 
 ## Installation:
 ```
@@ -62,4 +60,19 @@ swap  sin        2060288
 swap  sout       201388032
 ```
 
-### Docker
+## Docker
+
+### Image was created:
+```
+` docker build -t usg-metrics:latest https://github.com/OleksPo/metric-for-fedora/blob/master/Dockerfile `
+```
+### Run:
+
+#### CPU metrics:
+```
+` docker run -t --rm olekspo/usg-metrics:latest cpu `
+```
+#### Memory metrics:
+```
+` docker run -t --rm olekspo/usg-metrics:latest mem `
+```
