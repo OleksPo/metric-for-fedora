@@ -15,10 +15,10 @@ def mem ():
     """Print Memory Usage."""
     vmem_d = virtual_memory()._asdict()
     for key, value in vmem_d.items():
-        print("virtual \t", key,'\t', value)
+        print("virtual",key,' ',value)
     swmem_d = swap_memory()._asdict()
     for key, value in swmem_d.items():
-        print("swap \t", key,'\t', value)
+        print("swap ",key,'\t',value)
 
 if "cpu" in argv:
     ctp()
