@@ -1,4 +1,4 @@
-#! /bin/python3
+#!/bin/python3
 
 from psutil import cpu_times_percent
 from psutil import virtual_memory
