@@ -24,7 +24,7 @@ sudo pip3 install psutil --user
 
 ## Sample output:
 ```
-`$ ./metrics.py cpu`
+ $ ./metrics.py cpu
 
 system.cpu. user         1.2
 system.cpu. nice         0.0
@@ -39,7 +39,7 @@ system.cpu. guest_nice   0.0
 ```
 
 ```
-`$ ./metrics.py mem`
+ $ ./metrics.py mem
 
 virtual total   4111085568
 virtual available   711323648
@@ -64,21 +64,21 @@ swap  sout       201388032
 
 ### Image was created:
 ```
-` docker build -t olekspo/usg-metrics:latest`
+ docker build -t olekspo/usg-metrics:latest
 ```
 
 ### Pull from:
 ```
-` docker pull olekspo/usg-metrics:latest`
+ docker pull olekspo/usg-metrics:latest
 ```
 
 ### Run:
 
 #### CPU metrics:
 ```
-` docker run -t --rm olekspo/usg-metrics:latest cpu `
+ docker run -t --rm olekspo/usg-metrics:latest cpu 
 ```
 #### Memory metrics:
 ```
-` docker run -t --rm olekspo/usg-metrics:latest mem `
+ docker run -t --rm olekspo/usg-metrics:latest mem 
 ```
