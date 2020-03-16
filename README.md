@@ -66,6 +66,12 @@ swap  sout       201388032
 ```
 ` docker build -t usg-metrics:latest https://github.com/OleksPo/metric-for-fedora/blob/master/Dockerfile `
 ```
+
+### Pull from:
+```
+` docker pull olekspo/usg-metrics:latest`
+```
+
 ### Run:
 
 #### CPU metrics:
