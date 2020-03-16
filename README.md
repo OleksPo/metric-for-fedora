@@ -64,7 +64,7 @@ swap  sout       201388032
 
 ### Image was created:
 ```
-` docker build -t usg-metrics:latest https://github.com/OleksPo/metric-for-fedora/blob/master/Dockerfile `
+` docker build -t olekspo/usg-metrics:latest`
 ```
 
 ### Pull from:
