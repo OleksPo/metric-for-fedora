@@ -6,7 +6,7 @@ CLI tool to print CPU and Memory Utilization.
 
 ## Usage:
 ```
-    $ ./metrics.py [cpu|mem]
+ $ ./metrics.py [cpu|mem]
 ```
 
 ### Requirements:
@@ -69,7 +69,7 @@ swap  sout       201388032
 
 ### Pull from:
 ```
- docker pull hub.docker.com/repository/docker/olekspo/usg-metrics
+ docker pull olekspo/usg-metrics:lastest
 ```
 
 ### Run:
