@@ -17,7 +17,7 @@ CLI tool to print CPU and Memory Utilization.
 
 ## Installation:
 ```
-git clone <https://github.com/OleksPo/metric-for-fedora.git>
+git clone https://github.com/OleksPo/metric-for-fedora.git
 sudo yum install gcc python3-devel
 sudo pip3 install psutil --user
 ```
@@ -69,7 +69,7 @@ swap  sout       201388032
 
 ### Pull from:
 ```
- docker pull olekspo/usg-metrics:latest
+ docker pull hub.docker.com/repository/docker/olekspo/usg-metrics
 ```
 
 ### Run:
