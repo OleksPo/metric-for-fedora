@@ -1,4 +1,4 @@
-CPU and memory metric of Linux system. Test task.
+CPU and memory metric of Linux system. Test task for GL DevOps ProCamp 2020.
 
 # Description
 
