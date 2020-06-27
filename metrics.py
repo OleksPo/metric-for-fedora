@@ -25,4 +25,4 @@ if "cpu" in argv:
 elif "mem" in argv:
     mem()
 else:
-    print("Not supported argument. Please use [cpu|mem]\n")
+    print("Not supported argument. Please use [cpu OR mem]\n")
